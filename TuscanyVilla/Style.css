@@ -575,16 +575,16 @@ p.reviews {
     height: 250px;
 }
 
-html, body {
+/*html, body {
     margin: 0px;
     padding: 0px;
     background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
-}
+}*/
 
 .carousel {
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-    margin-top: 26px;
+    margin-top: -20px;
 }
 
 .carousel-inner {
@@ -613,7 +613,7 @@ html, body {
 
 .carousel-control {
     background: rgba(0, 0, 0, 0.28);
-    border-radius: 50%;
+    /*border-radius: 50%;*/
     color: #fff;
     cursor: pointer;
     display: none;
@@ -698,9 +698,6 @@ html, body {
 }
 
 
-
-
-
 .grid-item-24 {
     grid-column: 1 / span 12;
     /*grid-row: 15;*/
@@ -726,13 +723,107 @@ p.contact {
 
 
 .grid-item-25 {
-    grid-column: 1 / span 12;
+    grid-column: 1 / span 4;
     /*grid-row: 16;*/
     height: 400px;
 }
 
+p.contact-info-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 60px;
+    /*margin-top: -10px;*/
+}
+
+p.contact-info-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: left;
+    margin-left: 50px;
+    /*margin-top: 40px;*/
+    margin-top: -10px;
+}
+
 .grid-item-26 {
+    grid-column: 6 / span 7;
+    height: 325px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+}
+
+#name[type=text], select, textarea {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid rgb(92, 92, 138);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    margin-right: 26px;
+    /*margin-bottom: 16px;*/
+    resize: vertical;
+}
+
+#email[type=text], select, textarea {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid rgb(92, 92, 138);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 60px;
+    /*margin-bottom: 16px;*/
+    resize: vertical;
+}
+
+#comment[type=text], select, textarea {
+    width: 95%;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid rgb(92, 92, 138);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    /*margin-bottom: 16px;*/
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgb(92, 92, 138);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 580px;
+    margin-top: 10px;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+
+
+
+
+
+.grid-item-27 {
     grid-column: 1 / span 12;
     /*grid-row: 17;*/
     height: 200px;
-    background-color: rgb(92, 92, 138);
+    background-color: rgb(92, 92, 138);
+}
+
+p.credit-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+p.credit-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -5px;
+}
