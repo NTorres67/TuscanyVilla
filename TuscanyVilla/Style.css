@@ -29,8 +29,10 @@ li {
 }
 
 ul {
+    font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
     margin-left: 650px;
+    margin-top: 2px;
     padding: 0;
 }
 
@@ -51,7 +53,7 @@ a {
 }
 
 h1.header {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 75px;
     text-align:center;
     margin-top: 5px;
@@ -59,7 +61,8 @@ h1.header {
 }
 
 h3.header {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     text-align: center;
     margin-top: -50px;
     color: white;
@@ -81,16 +84,18 @@ h3.header {
 }
 
 h2.locations {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
     margin-top: 50px;
     text-align: center;
     color: white;
 }
 
 p.locations {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
+    margin-top: -20px
 }
 
 .grid-item-5 {
@@ -99,11 +104,37 @@ p.locations {
     height: 400px;
 }
 
-.location1 {
-    font-family: sans-serif;
+h3.location1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
     color: rgb(92, 92, 138);
     text-align: left;
     margin-left: 50px;
+    margin-top: 40px;
+}
+
+p.location1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-top: -10px;
+}
+
+button.location1 {
+    background-color: rgb(92, 92, 138);
+    border: none;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: -10px;
+    cursor: pointer;
 }
 
 .grid-item-6 {
@@ -122,10 +153,88 @@ p.locations {
     height: 400px;
     background-color: rgb(92, 92, 138);
 }
+
+h3.location-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: left;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+p.location-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 550px;
+    margin-top: 40px;
+    margin-top: -10px;
+}
+
+button.location-2 {
+    background-color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 550px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+section.jumbotron-7 {
+    /*grid-column: 2 / span 5;*/
+    height: 300px;
+    margin-left: 50px;
+    margin-top: -125px;
+
+}
+
+
+
+
 .grid-item-8 {
     grid-column: 1 / span 6;
     /*grid-row: 6;*/
     height: 400px;
+}
+
+h3.location-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: rgb(92, 92, 138);
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+p.location-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-top: -10px;
+}
+
+button.location-3 {
+    background-color: rgb(92, 92, 138);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-top: -10px;
+    cursor: pointer;
 }
 
 .grid-item-9 {
@@ -146,16 +255,18 @@ p.locations {
 }
 
 h2.ammenities {
-    font-family: sans-serif;
-    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 37px;
     text-align: center;
     color: white;
 }
 
 p.ammenities {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
+    margin-top: -20px;
 }
 
 .grid-item-11 {
@@ -172,11 +283,56 @@ p.ammenities {
     background-size: cover;
 }
 
+h3.receptions {
+    background-color: rgba(89, 89, 89, 0.8);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+        
 .grid-item-13 {
     grid-column: 5 / span 4;
-    /*grid-row:9;*/
+    grid-row:9;
     height: 360px;
 }
+
+h2.grid-13-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    font-size: 30px;
+}
+
+p.grid-13-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    padding: 15px;
+    margin-top: -35px;
+}
+
+button.grid-13-a {
+    background-color: rgb(92, 92, 138);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-top: -65px;
+    cursor: pointer;
+}
+
 
 .grid-item-14 {
     grid-column: 9 / span 4;
@@ -186,10 +342,56 @@ p.ammenities {
     background-size: cover;
 }
 
+p.pool {
+    background-color: rgba(89, 89, 89, 0.8);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
 .grid-item-15 {
     grid-column: 1 / span 4;
     /*grid-row: 10;*/
     height: 360px;
+}
+
+h2.grid-15-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    font-size: 30px;
+}
+
+p.grid-15-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    padding: 15px;
+    margin-top: -35px;
+}
+
+button.grid-15-a {
+    background-color: rgb(92, 92, 138);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-top: -65px;
+    cursor: pointer;
 }
 
 .grid-item-16 {
@@ -200,10 +402,56 @@ p.ammenities {
     background-size: cover;
 }
 
+p.room {
+    background-color: rgba(89, 89, 89, 0.8);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
 .grid-item-17 {
     grid-column: 9 / span 4;
     /*grid-row: 10;*/
     height: 360px;
+}
+
+h2.grid-17-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    font-size: 30px;
+}
+
+p.grid-17-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    padding: 15px;
+    margin-top: -35px;
+}
+
+button.grid-17-a {
+    background-color: rgb(92, 92, 138);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-top: -65px;
+    cursor: pointer;
 }
 
 .grid-item-18 {
@@ -214,10 +462,56 @@ p.ammenities {
     background-size: cover;
 }
 
+p.views {
+    background-color: rgba(89, 89, 89, 0.8);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
 .grid-item-19 {
     grid-column: 5 / span 4;
-    /*grid-row: 11;*/
+    grid-row: 11;
     height: 360px;
+}
+
+h2.grid-19-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    font-size: 30px;
+}
+
+p.grid-19-a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(92, 92, 138);
+    text-align: center;
+    padding: 15px;
+    margin-top: -35px;
+}
+
+button.grid-19-a {
+    background-color: rgb(92, 92, 138);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
+    margin-top: -65px;
+    cursor: pointer;
 }
 
 .grid-item-20 {
@@ -228,9 +522,25 @@ p.ammenities {
     background-size: cover;
 }
 
+p.dining {
+    background-color: rgba(89, 89, 89, 0.8);
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    width: 120px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+
 .grid-item-21 {
     grid-column: 1 / span 12;
-    /*grid-row: 12;*/
+    grid-row: 12;
     height: 50px;
 }
 
@@ -239,6 +549,21 @@ p.ammenities {
     /*grid-row: 13;*/
     height: 150px;
     background-color: rgb(92, 92, 138);
+}
+
+h2.reviews {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 37px;
+    text-align: center;
+    color: white;
+}
+
+p.reviews {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
 }
 
 .grid-item-23 {
@@ -254,6 +579,23 @@ p.ammenities {
     background-color: rgb(92, 92, 138);
 }
 
+h2.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-top: 37px;
+    text-align: center;
+    color: white;
+}
+
+p.contact {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: -20px;
+}
+
+
+
 .grid-item-25 {
     grid-column: 1 / span 12;
     /*grid-row: 16;*/
@@ -264,5 +606,4 @@ p.ammenities {
     grid-column: 1 / span 12;
     /*grid-row: 17;*/
     height: 200px;
-    background-color: rgb(92, 92, 138);
-}
+    background-color: rgb(92, 92, 138);
